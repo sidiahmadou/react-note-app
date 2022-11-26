@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input-box{
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+}
+.input-box input{
+  width: 90%;
+  padding: 0.5rem;
+  color: black;
+  border-radius: 5px ;
+
+}
+
+.note-app{
+  width: 70%;
+  margin: 0 auto;
+}
+.note-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.note{
+  word-wrap: break-word;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  flex: 1 0 auto;
+}
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img{
+  width: 20px;
+}
+img:hover{
+  cursor: pointer;
+  transform: scale(110%);
+}
+
+.new-note{
+  padding: 1em;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: rgb(198, 219, 194);
+  flex: 1 0 auto;
+}
+.new-note textarea {
+  width: 100%;
+  height: 80%;
+  border: none;
+  resize: none;
+  background-color: transparent;
+}
+textarea:focus{
+  outline: none;
+}
+.new-note button{
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: rgb(142, 172, 136);
+  font-weight: bold;
+  background-color: white;
+  border: solid 1px black;
+}
+.new-note button:hover{
+  cursor: pointer;
+}
+.new-note span{
+  font-size: 0.8rem;
+}
