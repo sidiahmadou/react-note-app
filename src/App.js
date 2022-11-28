@@ -28,6 +28,7 @@ const createNote = (text)=>{
 }
   return (
     <div className='note-app'>
+      <h1 className='title'>My note app</h1>
       <Notes notes={notes} handleAddNote={createNote} deleteNote={deleteNote}/>
     </div>
   )
