@@ -17,6 +17,7 @@ code {
   padding-inline: 0.5rem;
 }
 .input-box input{
+  font-size: 16px;
   width: 90%;
   padding: 0.5rem;
   color: black;
@@ -71,6 +72,7 @@ img:hover{
   flex: 1 0 auto;
 }
 .new-note textarea {
+  font-size: 16px;
   width: 100%;
   height: 80%;
   border: none;
